@@ -18,7 +18,7 @@ import {
   getAllHistoryController,
   deleteHistoryController,
 } from "../controllers/History.js";
-import upload from "../Helpers/fileHelpers.js";
+import upload from "../helpers/fileHelpers.js";
 import auth from "../middleware/auth.js";
 
 const routes = express.Router();
